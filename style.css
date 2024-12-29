@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(114, 88, 101, 0.881);
+  display: flex;
+}
+
+#nav{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 5%;
+  left: 8%;
+  position: absolute;
+}
+
+#nav img{
+  height: 62px;
+}
+
+#nav h5{
+  font-size: 20px;
+  font-family: gilroy;
+  color: #fff;
+
+}
+
+#section1{
+  height: 100%;
+  width: 26%;
+  
+}
+#section2{
+  height: 100%;
+  width: 68%;
+  background-color: blue;
+  background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(115, 96, 105, 0.375);
+}
+
+#section3{
+  height: 100%;
+  width: 8%;
+  
+}
+
+#text-section{
+  position: absolute;
+  width: 400px;
+  left: 8%;
+  top: 50%;
+  transform: translate(0, -50%);
+  
+}
+
+#text-section h1{
+  font-size: 95px;
+  font-family: monument;
+  font-weight: 800;
+  letter-spacing: 8px;
+  color: #fff;
+  line-height: 78px;
+  text-transform: uppercase;
+}
+
+#inner-image-section{
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  right: 5%;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-image: url(https://images.unsplash.com/photo-1529680459049-bf0340fa0755?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+#vertical-text{
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+  right: -50%;
+  top: -10%;
+}
+
+#vertical-text h1{
+  font-size: 65px;
+  font-family: monument;
+  font-weight: 900;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+  
+}
